@@ -1,0 +1,76 @@
+/* ************ */
+/* COMMON RULES */
+/* ************ */
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background-color: #efefef;
+}
+
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+
+section {
+  background-color: white;
+  padding: 60px 30px;
+  border-radius: 20px;
+}
+
+p {
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 50px;
+  color: #393c6c;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  color: #f3735f;
+  margin: 70px 0 20px 0;
+}
+
+h3 {
+  font-size: 18px;
+  color: #393c6c;
+  line-height: 22px;
+}
+
+/* ************ */
+/*    HEADER    */
+/* ************ */
+
+header {
+  background-color: white;
+  border-bottom: 1px solid #f3735f;
+  height: 80px;
+}
+
+.logo {
+  height: 32px;
+  padding: auto;
+}
+
+/* ************ */
+/*     MAIN     */
+/* ************ */
+
+/* ************ */
+/*    FOOTER    */
+/* ************ */
+
+footer {
+  height: 40px;
+}
