@@ -60,17 +60,81 @@ header {
 
 .logo {
   height: 32px;
-  padding: auto;
+  margin-top: 24px;
 }
 
 /* ************ */
 /*     MAIN     */
 /* ************ */
 
+main {
+  margin: 60px 0;
+}
+.baseline {
+  text-align: center;
+  color: #6c6c6c;
+  line-height: 14px;
+  padding-top: 8px;
+  font-size: 12px;
+}
+
+.time {
+  background-color: #8a98b1;
+  margin: 30px auto;
+  width: 400px;
+  color: white;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  padding: 10px 0;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.box-pictures {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box-pictures img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin-right: 21px;
+  border-radius: 10px;
+}
+
+.ingredients ul {
+  margin-left: 20px;
+}
+
+.ingredients ul li {
+  list-style: disc;
+  color: #6c6c6c;
+  line-height: 22px;
+}
+.smiley {
+  font-size: 20px;
+}
+
+.etape {
+  margin-bottom: 20px;
+}
+
 /* ************ */
 /*    FOOTER    */
 /* ************ */
 
 footer {
-  height: 40px;
+  height: 134px;
+}
+
+footer p {
+  text-align: center;
+  color: #6c6c6c;
+  margin: 45px auto;
+}
+
+.copyright {
+  font-size: 18px;
 }
